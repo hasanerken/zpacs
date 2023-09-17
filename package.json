@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@hebilicious/vue-query-nuxt": "^0.2.0",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "latest",
+    "@pinia/nuxt": "latest",
+    "@vueuse/nuxt": "latest",
+    "dayjs-nuxt": "latest",
+    "electron": "^26.2.1",
+    "electron-builder": "^24.6.4",
+    "nuxt": "^3.7.3",
+    "nuxt-electron": "^0.6.0",
+    "nuxt-phosphor-icons": "latest",
+    "nuxt-radash": "latest"
+  },
+  "dependencies": {
+    "@huntersofbook/naive-ui-nuxt": "^1.2.0",
+    "@tanstack/vue-query": "^4.35.3",
+    "ohmyfetch": "^0.4.21"
+  }
+}
